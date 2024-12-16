@@ -1,6 +1,3 @@
-$(function(){
-
-    // id属性がtargetの要素のcolorプロパティをredにする
-    $('#target').css('color', 'red');
-
-});
+$(document).ready(function(){
+    $('#target').addClass('heading');
+  });
